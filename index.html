@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8 / html5">
+        <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="Refresh" content="100">
+        <title>Aprendiendo HTML, CSS y JavaScript</title>
+        <link rel="stylesheet"  href="styles.css">
+        <script src="main.js"></script>
+    </head>
+    <body class="fondo">
+        <div class="TituloPagina">
+        <h1 align=center>Conociendo mejor HTML, CSS y JS</h1>
+        <h2 align=center>Estamos estudiando para<br> la entrevista</h2>
+        </div>
+        <hr noshade>
+
+        <div class="Enlaces" style="text-align: center;">
+        <a href="index.html"> Usando HTML <img width = "16" src="./imagenes/html.png" border=0 > </a>
+        <a href="js.html"> Usando JS <img width = "25" src="./imagenes/JS2.png" border=0 > </a>
+        <a href="css.html"> Usando CSS <img width = "13" src="./imagenes/css.png" border=0 > </a>
+        <a href="https://www.uv.es/jac/guia/indice.htm"> Guia html <img width="20" src="./imagenes/guia.jpg"></a>
+        <a href="https://lenguajecss.com/css/introduccion/guia-css/"> Guia css <img width="20" src="./imagenes/guia.jpg"></a>
+        <a href="contacto.html"> Contacto <img width = "15" src="./imagenes/contacto.png" border=0 > </a>
+        </div>
+
+        <hr>
+        <b>Introduccion de lo que hemos aprendido</b>
+        <p> Con lo que llevamos del curso hemos aprendido que todo documento HTML inicia con un "!DOCTYPE html" seguido de un "html",<br>
+            tengamos en cuenta que estas sentencias que he mencionado llevan un "<" antes y un ">" despues, al igual que "html" y 
+            otras etiquetas <br> llevan un cierre que seria un "<" seguido de "/" , "-sentencia-" y ">". Tambien sabemos que head es donde 
+            definimos los metadatos <br> como el "charset" de tipo "UTF-8" y el titulo de la pagina web para poder identifacarla de manera rapida. 
+        </p>
+        <p>
+            Para el caso de hacer enlaces que te permitan moverte de pagina en pagina o en la misma pero diferente apartado usaremos lo siguiente...
+        </p>
+        <p>
+            &lta href = "ejemplo.html o una url"> "Descripcion" /a&gt<br><br>
+            
+            Ahora para hacer contenedores seria tipo: <br>
+            &ltdiv class="Nombre" style="una funcion"/&gt "Lo que vayas a englobar" &lt/div><br>
+            Un ejemplo de contenedor fue lo que hicimos para los enlaces que se muestran en la parte de arriba.
+       </p><br>
+
+       <b>Para input y sus variables debemos mencionar las siguientes funciones</b>
+        <ul type="square">
+        <li><b>&lt;INPUT&gt;</b>
+        <ul type="disk">
+            <li> Campos de entrada por teclado.
+            <li> Botones de selecci&oacute;n.
+            <li> Casillas de marca.
+            <li> Botones de  proceso.
+            <li> Botones de  inicializaci&oacute;n (reset).
+            <li> Im&aacute;genes sensibles al rat&oacute;n.
+        </ul>
+        <li><b>&lt;SELECT&gt;</b>
+        <ul type="disk">
+            <li>Listas desplegables de valores.
+            <li>Listas fijas de valores.
+        </ul>
+        <p>El metodo select viene acompañado de "&ltoption&gt &lt/option&gt" para ingresar sus opciones.</p>
+        <li><b>&lt;TEXTAREA&gt;</b>
+        <ul type="disk">
+            <li>Ventanas de escritura libre.
+        </ul>
+        </ul>
+        <hr>
+
+        <h3 align="center">Viendo lo aprendido a la vez que mostramos como usar listas</h3>
+
+        <ul>
+            <b>Elemtos vistos hasta el momento para saber HTML</b><br><br>
+            <li>El &lt !DOCTYPE html &gt (aqui se define el tipo de documento).</li><br>
+            <li>El &lt html &gt &lt /html &gt (se define la etiqueta html).</li><br>
+            <li>El &lt head &gt &lt /head &gt (donde se definen los metadatos y nombre).</li><br>
+            <li>El &lt body &gt &lt /body &gt (aqui se encuenytran los elementos visibles).</li><br>
+            <li>El &lt h1 &gt &lt /h1 &gt (sabemos que hay hasta h6 y son encabezados).</li><br>
+            <li>El &lt p &gt &lt /p &gt (es para escribir parrafos).</li><br>
+            <li>El &lt pre &gt &lt /pre &gt (es para escribir parrafos con salto de linea automatico).</li><br>
+            <li>El &lt hr &gt (sirve para separar por secciones la pagina).</li><br>
+            <li>El &lt ul &gt &lt /ul &gt (para hacer listas como esta, ul es desordenada).</li><br>
+            <li>El &lt ol &gt &lt /ol &gt (para hacer listas ordenadas).</li><br>
+            <li>El &lt div &gt &lt /div &gt (se utiliza para hacer contendores).</li><br>
+            <li>El &lt b &gt &lt /b &gt (sirve para mostrar texto en negritas).</li><br>
+            <li>El &lt form &gt &lt /form &gt (sirve para hacer formularios).</li><br>
+            <li>El &lt label &gt &lt /label &gt (sirve para ponerle nombre al campo).</li><br>
+            <li>El &lt input &gt &lt /input &gt (sirve para poner el campo, pero aqui se pondria: type="text" name="nombre").</li><br>
+            <li>El &lt select &gt &lt /select &gt (sirve para desplegar listas de opciones).</li><br>
+        <hr>
+            <ol>
+                <b>Aqui veremos una lista ordenada y los diferentes caracteres que se pueden usar</b>
+                <li>Si quieres que sean numeros solo basta con &ltli&gt...&lt/li&gt</li>
+                <li type="A">Lista con letras mayusculas &ltli TYPE="A"&gt...&lt/li&gt</li>
+                <li type="a">Lista con letras minisculas TYPE="a"&gt...&lt/li&gt</li>
+                <li type="I">Lista con numeros romanos en mayusculas TYPE="I"&gt...&lt/li&gt</li>
+                <li type="i">Lista con numeros romanos en minisculas TYPE="i"&gt...&lt/li&gt</li><br>
+            </ol>
+        <hr>
+
+        <h3 align="center">Como poner imagenes en el documento HTML</h3>
+        <pre>Para poner imagenes seria &lt img alt="Descripcion de la imagen (opcional)" src"ruta  de la imagen"/&gt
+Para modificar la imagen pondemos usar "width = numero"
+        </pre><br>
+        <div class="img">
+        <img alt = "Logo de HTML" width="150" src="./imagenes/html3.png">
+        <img alt = "Logo de CSS" width="142" src="./imagenes/CSS.png">
+        <img alt = "Logo de JS" width="325" src="./imagenes/JS2.png">
+        </div>
+
+    </body>
+</html>
