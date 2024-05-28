@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lo que sabemos de CSS</title>
+    <meta http-equiv="Refresh" content="10">
     <link rel="stylesheet"  href="styles.css">
     <script src="main.js"></script>
 </head>
@@ -13,16 +14,49 @@
         <h2 align=center>Estamos estudiando para<br> la entrevista</h2>
         </div>
 
-        <hr noshade>
-
         <div class="Enlaces" style="text-align: center;">
+        <hr noshade>
         <a href="index.html"> Usando HTML <img width = "25" src="./imagenes/inicio.png" border=0 > </a>
         <a href="css.html"> Usando CSS <img width = "13" src="./imagenes/css.png" border=0 > </a>
+        <a href="js.html"> Usando JS <img width = "25" src="./imagenes/JS2.png" border=0 > </a>
          <a href="https://www.uv.es/jac/guia/indice.htm"> Guia html <img width="20" src="./imagenes/guia.jpg"></a>
         <a href="https://lenguajecss.com/css/introduccion/guia-css/"> Guia css <img width="20" src="./imagenes/guia.jpg"></a>
         <a href="contacto.html"> Contacto <img width = "15" src="./imagenes/contacto.png" border=0 > </a>
+        <hr noshade=>
         </div>
-        <hr>
+        
+
+        <div class="IntroCSS">
+            <b>Introduccion a lo que llevamos aprendido de CSS</b>
+            <p>
+                Para usar CSS es necesario que primero creemos un archivo en nuestro documento con la extension ".css",<br>
+                luego de eso es neceario incluirlo en nuestro archivo HTML o en los que vayamos a requerir los estilos,<br>
+                de igual forma puedes crear varios para diferentes archivos que visualices vayan a ser diferentes pero <br>
+                si piensas mantener el mismo estilo en toda tu pagina web, te recomiendo hacer contendores con &ltdiv>.<br><br>
+                Para incluir nuestro archivo css en nuestro archivo HTML te recomiendo usar el siguiente codigo: <br><br>
+                <div style="font-size: 20px; color: rgb(160, 160, 192);">&lt link rel="stylesheet" href="nombre.css"/&gt;</div><br><br>
+                Para poner de color azul el texto de arriba encerre la expresion en un contenedor &lt;div&gt; de esta forma:<br>
+                &lt;div style="color: rgb(100, 100, 131);"&gt;&lt link rel="stylesheet" href="nombre.css"/&gt;"&lt;/div&gt;
+            </p><br>
+        </div>
+            <hr><br>
+            <b>A continuacion veremos la sintaxis para usar CSS</b><br><br>
+            <div class="Sintax">
+            <pre>
+                .selector{
+                    propiedad: valor;
+                    propiedad: valor;
+                    propiedad: valor
+                }
+            </pre>
+            </div>
+            <p>
+                Se basa en una regla por linea terminada por punto y coma, no es necesario ponerle punto y coma la ultima<br>
+                regla pero es opcional, no pasa nada si se la pones o no. 
+            </p>
+            
+            
+        
     
 </body>
 </html>
